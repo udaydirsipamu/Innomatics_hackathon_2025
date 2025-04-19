@@ -214,5 +214,5 @@ for _, row in merged_df.iterrows():
 density_map.save("/content/restaurant_density_map.html")
 
 #Display the map in Colab
-display(IFrame("/content/italian_restaurants_map.html", width=1000, height=800))
+display(IFrame("/content/restaurant_density_map.html", width=1000, height=800))
 
